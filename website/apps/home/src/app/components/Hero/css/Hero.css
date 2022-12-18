@@ -1,0 +1,11 @@
+.Hero {
+    background-color: rgba(164, 165, 168,0.2);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.heroSlider {
+    height: 100%;
+    width: 100%;
+}

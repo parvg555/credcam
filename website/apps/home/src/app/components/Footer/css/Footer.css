@@ -1,0 +1,10 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+.Footer {
+    width: 100%;
+    min-height: 30vh;
+    background-color: var(--footer-bg-color);
+    display: grid;
+}
+

@@ -1,0 +1,79 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+.SearchResults {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultHeading {
+    font-family: Montserrat-Medium;
+    color: #737373;
+    font-size: 0.8em;
+    margin: 1.0em 1.4em;
+
+}
+
+.resultItem{
+    padding: 0em 1.0em;
+    height: 55px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.resultItem:hover {
+    background-color: var(--desktopSearchResults-HoverColor);
+}
+
+.resultItem-infoContainer {
+    height: 70%;
+    background: transparent;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.resultItem-Heading {
+    font-family: Montserrat-Medium;
+    font-size: 0.9em;
+}
+
+.resultItem-Description {
+    font-family: Montserrat-Medium;
+    color: #737373;
+    font-size: 0.6em;
+}
+
+.SearchAllButton-Container {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0em;
+}
+
+.SearchAllButton {
+    width: 50%;
+    padding: 0.6em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--navbar-logo-transparent);
+    border-radius: 20px;
+    height: 15px;
+    cursor: pointer;
+    font-family: Montserrat-Medium;
+    font-size: 0.8em;
+}
+
+.SearchAllButton:hover {
+    border: 1px solid var(--navbar-logo);
+}

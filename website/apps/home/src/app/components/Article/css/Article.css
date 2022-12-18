@@ -1,0 +1,7 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+.Article {
+    margin-top: 8vh;
+    width: 100%;
+}

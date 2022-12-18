@@ -1,0 +1,33 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+.DesktopArticle {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.suggestionBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8vh;
+    height: 92vh;
+    width: 20%;
+    background-color: aqua;
+}
+
+.articleContainer{
+    width: 55%;
+    min-height: 150vh;
+    background-color: beige;
+}
+
+.authorBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8vh;
+    height: 92vh;
+    width: 25%;
+    background-color: aqua;
+}

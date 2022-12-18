@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Poligon-Bold;
+    src: url(../../../assets/fonts/poligon/PoligonBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Poligon-Medium;
+    src: url(../../../assets/fonts/poligon/PoligonMedium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Poligon-Thin;
+    src: url(../../../assets/fonts/poligon/PoligonThin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Bodoni-Medium;
+    src: url(../../../assets/fonts/Bodoni/BodoniModaMedium.ttf);
+}
+
+
+@font-face {
+    font-family: Circular-Std;
+    src: url(../../../assets/fonts/circularstd/CircularStd.otf) format('opentype');
+}
+
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../../../assets/fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: Poppins;
+    src: url(../../../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../../../assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}

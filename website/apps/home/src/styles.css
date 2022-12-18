@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(./app//components/css/fontMaster.css);
+
+* {
+    margin: 0px;
+	font-family: poppins;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar-track{
+	box-shadow: none;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+	width: 5px;
+	background:transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 7px;
+	background-color: rgba(134, 134, 134,0.7);
+}

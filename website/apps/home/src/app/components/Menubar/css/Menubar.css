@@ -1,0 +1,31 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+.Menubar {
+    background: transparent;
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .Menubar{
+        height: 30px;
+        width: 30px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1em;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid var(--text-navbar);
+        transition: all 0.4s ease;
+    }
+
+    .Menubar > .MuiSvgIcon-root {
+        font-size: 17px;
+    }
+
+    .Menubar:hover {
+        border: 1px solid var(--text-navbar-dark);
+    }
+}

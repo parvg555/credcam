@@ -1,0 +1,70 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+.mobileMenu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--background-color-noTransparent);
+    overflow-y: auto;
+    transition: all 1s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cancelMobileMenu {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.cancelMobileMenu > .MuiSvgIcon-root {
+    font-size: 2em;
+    margin: 0.5em;
+    background-color: var(--background-color-highlight);
+}
+
+.mobileMenuOptionsContainer {
+    height: 84%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-200%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.mobileMenuOptions {
+    color: inherit;
+    font-size: 2em;
+    margin: 5px;
+    animation: 1s ease-out 0s 1 slideInFromTop;
+}
+
+
+
+.mobileMenuOptions > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mobileLoginButtonContainer {
+    height: 8%;
+    width: 80%;
+    display: block;
+    align-items: center;
+}

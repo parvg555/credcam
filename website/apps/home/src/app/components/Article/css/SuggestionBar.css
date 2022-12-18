@@ -1,0 +1,9 @@
+.SuggestionBar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8vh;
+    height: 92vh;
+    width: 20%;
+    background-color: aqua;
+}
+

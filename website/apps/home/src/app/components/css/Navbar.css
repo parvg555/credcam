@@ -1,0 +1,31 @@
+@import url(fontMaster.css);
+@import url(colorMaster.css);
+
+.Navbar {
+    position: fixed;
+    top: 0px;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 100;
+    background: transparent;
+    -webkit-backface-visibility: hidden;
+}
+
+.Navbar > a {
+    text-decoration: none;
+}
+
+.Navbar-Heading {
+    font-family: Bodoni-Medium;
+    margin: 1.0em;
+    font-size: 1.7em;
+    font-weight: 600;
+    color: var(--navbar-logo);
+}
+
+.desktopLoginButtonContainer {
+    margin-left: auto;
+}

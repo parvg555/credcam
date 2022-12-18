@@ -1,0 +1,15 @@
+.desktopMenu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.2em;
+}
+
+.desktopMenuOptions {
+    margin: 0.5em;
+}
+
+
+.desktopMenuOptions > a {
+    text-decoration: none;
+    color:inherit;
+}

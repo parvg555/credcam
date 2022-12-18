@@ -1,0 +1,58 @@
+@import url(../css/colorMaster.css);
+@import url(../css/fontMaster.css);
+
+.LoginButton {
+    margin-right: 1em;
+    padding: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, var(--login-button-color1),var(--login-button-color2));
+    transition: all 1s ease-in;
+}
+
+@keyframes loginButtonAnimation {
+    0% {
+        background: linear-gradient(to left, var(--login-button-color1),var(--login-button-color2));
+    }
+    16% {
+        background: linear-gradient(to bottom, var(--login-button-color1),var(--login-button-color2));
+    }
+    32% {
+        background: linear-gradient(to right, var(--login-button-color1),var(--login-button-color2));
+    }
+    48% {
+        background: linear-gradient(to top, var(--login-button-color1),var(--login-button-color2));
+    }
+    64% {
+        background: linear-gradient(to left, var(--login-button-color1),var(--login-button-color2));
+    }
+    80% {
+        background: linear-gradient(to bottom, var(--login-button-color1),var(--login-button-color2));
+    }
+    100%{
+        background: linear-gradient(to right, var(--login-button-color1),var(--login-button-color2));
+    }
+}
+
+.LoginButton:hover {
+    animation: 0.8s ease-in-out 0s 1 loginButtonAnimation;
+    transition-delay:0.8s;
+    background: linear-gradient(to right, var(--login-button-color1),var(--login-button-color2));
+}
+
+
+
+.LoginButtonBorder{
+    font-size: 0.9em;
+    padding: 0.5em 0.8em;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--background-color-noTransparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

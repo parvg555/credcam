@@ -1,0 +1,9 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+.MobileArticle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

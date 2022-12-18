@@ -1,0 +1,66 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+
+.DesktopSearch {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    background: transparent;
+}
+
+
+.DesktopSearch > input {
+    background: transparent;
+    height: 100%;
+    width: 350px;
+    max-width: 30vw;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+.desktopSearchResults {
+    position: absolute;
+    width: 400px;
+    max-width: 40vw;
+    max-height: 70vh;
+    z-index: 2;
+    transform: translateY(3.1em);
+    display: block;
+    transition: all 0.6s ease-in-out;
+    background: transparent;
+}
+
+.desktopResultsContainer {
+    margin:0px 0px;
+    max-height: 50vh;
+    overflow-y: auto;
+    border-radius: 5px;
+    background-color: var(--desktopSearchResults-backgroundColor);
+    -webkit-box-shadow: rgb(4 4 5 / 20%) 0px 7px 36px -8px;
+    -moz-box-shadow: rgb(4 4 5 / 20%) 0px 7px 36px -8px;
+    box-shadow: rgb(4 4 5 / 20%) 0px 7px 36px -8px;
+    transition: all 0.6s ease-in-out;
+    animation: fadein 0.4s;
+}
+
+.desktopResultsContainer::-webkit-scrollbar{
+    background:transparent;
+}
+
+.desktopResultsContainer::-webkit-scrollbar-track {
+    background: transparent;
+    box-shadow: none;
+}
+
+.desktopResultsContainer::-webkit-scrollbar-thumb{
+    background-color: var(--text-navbar-dark);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

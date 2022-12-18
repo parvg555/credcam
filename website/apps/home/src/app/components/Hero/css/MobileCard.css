@@ -1,0 +1,180 @@
+@import url(../../css/colorMaster.css);
+@import url(../../css/fontMaster.css);
+
+.MobileCard {
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.80em;
+}
+
+.backgroundCover-mobile{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(255,255,255,0.8) 100%);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+.cardContent-Mobile{
+    z-index: 2;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper-cardContent-Mobile{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper-cardContent-left-mobile {
+    height: 50%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroCardHeading-leftCard-mobile {
+    width: 90%;
+    font-size: 2.4em;
+    font-family: Poppins-SemiBold;
+    text-align: center;
+}
+
+.heroCardSubHeading-leftCard-mobile {
+    margin-top: 10px;
+    height: fit-content;
+    width: 90%;
+    font-size: 1.6em;
+    font-family: Poligon-Thin;
+    text-align: center;
+}
+
+.heroCardButtons-leftCard-mobile{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroCardButtons-leftCard-mobile > a {
+    text-decoration: none;
+}
+
+.heroCardButton-leftCard-mobile {
+    background-color: beige;
+    padding: 0.5em 1.1em;
+    margin-right: 0.6em;
+    border-radius: 10px;
+    background-color: var(--herolowerbarButton);
+    color: var(--background-color-noTransparent);
+    cursor: pointer;
+}
+
+.heroCardButton-leftCard-mobile:hover{
+    background-color: var(--herolowerbarButton-hover);
+}
+
+.upper-cardContent-right-mobile {
+    height: 50%;
+    width: 90%;
+    max-width: 50vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    overflow: hidden;
+}
+
+.herocardBottomBar-right-mobile {
+    height: 14%;
+    width: 100%;
+    background-color: var(--rightCard-bottomBar);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.herocardBottomBar-right-avatarContainer-mobile {
+    margin: 0.3em 0.9em;
+}
+
+
+.herocardBottomBar-textContainer-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.herocardBottomBar-text-Heading-mobile {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.herocardBottomBar-text-description-mobile {
+    font-size: 0.7em;
+}
+
+
+.lowerbar-cardContent{
+    background-color: aliceblue;
+    padding: 0em 5%;
+    height: 15%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lowerbar-cardContent > a {
+    text-decoration: none;
+}
+
+.lowerbarText {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.lowerbarButton {
+    padding: 1em;
+    background-color: var(--herolowerbarButton);
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--background-color-noTransparent);
+    cursor: pointer;
+}
+
+.lowerbarButton:hover {
+    background-color: var(--herolowerbarButton-hover);
+}
